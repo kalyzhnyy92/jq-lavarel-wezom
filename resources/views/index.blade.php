@@ -37,7 +37,7 @@
 <div class="main">
     @include('layouts.container')
     <div class="container">
-        <div class="below">
+        <div class="wrapper">
             <div class="row justify-content-xl-between justify-content-center">
                 @foreach($mock->card as $card)
                     <div class="col-auto col-xl-3 col-lg-4 col-md-5 col-sm-6 pb-3">
@@ -53,7 +53,7 @@
     <div class="container">
         <div class="row justify-content-xl-between justify-content-center">
             <div class="col-xl-8 col-12">
-                <div class="wrapper">
+                <div class="section__wrapper">
                     @include('layouts.wrapper')
                     <div class="row justify-content-center pt-5">
                         @foreach($mock->aside as $aside)
@@ -74,7 +74,7 @@
 
 <div class="footer">
     <div class="container">
-        <div class="preview">
+        <div class="footer__wrapper">
             <div class="row justify-content-xl-between justify-content-center align-items-center">
                 <div class="col-auto">
                     @include('layouts.social')
