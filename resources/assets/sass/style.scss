@@ -17,7 +17,7 @@ body {
 .main{
   background-color: $white-bg-color;
 }
-.heading{
+.main__wrapper{
   padding-top: 43px;
   padding-bottom: 36px;
 }
@@ -26,13 +26,13 @@ body {
   color: $grayish-color;
   margin: 0;
 }
-.below{
+.wrapper{
   padding-bottom: 120px;
 }
 .section{
   background-image: linear-gradient(90deg,#fafafa 50%,#f1f1f1 0);
 }
-.wrapper{
+.section__wrapper{
   background-color: #fafafa;
   padding-top: 53px;
   padding-right: 80px;
@@ -40,7 +40,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.preview{
+.footer__wrapper{
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 38px;
